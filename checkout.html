@@ -193,17 +193,17 @@
                             <div class="col-sm-offset-1 panel-heading">Information</div>
                           </div>
                           <div class="form-group">
-                            <label class="col-sm-1 control-label" for="firstName">First name</label>
+                            <label class="col-sm-1 control-label" for="firstName">Name</label>
                             <div class="col-sm-11">
-                              <input class="form-control" id="firstName" type="text" name="firstName" placeholder="Type name here">
+                              <input class="form-control"  type="text" name="name" placeholder="Type name here">
                             </div>
                           </div>
-                          <div class="form-group">
+                <!--           <div class="form-group">
                             <label class="col-sm-1 control-label" for="lastName">Last name</label>
                             <div class="col-sm-11">
                               <input class="form-control" id="lastName" type="text" name="lastName" placeholder="Type last name here">
                             </div>
-                          </div>
+                          </div> -->
                           <div class="form-group">
                             <label class="col-sm-1 control-label" for="email">Email</label>
                             <div class="col-sm-11">
@@ -211,9 +211,9 @@
                             </div>
                           </div>
                           <div class="form-group">
-                            <label class="col-sm-1 control-label" for="phone">Phone</label>
+                            <label class="col-sm-1 control-label">Phone</label>
                             <div class="col-sm-11">
-                              <input class="form-control phone-mask" id="phone" type="text" name="phone">
+                              <input class="form-control phone" id="phone" type="text" name="phone">
                             </div>
                           </div>
                         </div>
@@ -255,6 +255,11 @@
                           </div>
                         </div>
                       </div>
+
+                      <a href="https://www.instamojo.com/@nearus/la3b859217fbd426c801e495c648b5a8d/" rel="im-checkout" data-behaviour="remote" data-style="light" data-text="Checkout With Instamojo"></a>
+                      <script src="https://js.instamojo.com/v1/button.js"></script>
+
+<!-- 
                       <div class="panel mb-0">
                         <div class="panel-body form-horizontal new-customer-billing pt-5">
                           <div class="form-group">
@@ -308,8 +313,9 @@
                             </div>
                           </div>
                         </div>
-                      </div>
-                      <div class="panel mb-0">
+                      </div> -->
+                      
+                      <!-- <div class="panel mb-0">
                         <div class="panel-body form-horizontal new-customer-billing pt-5">
                           <div class="form-group">
                             <div class="col-sm-offset-1 panel-heading">Shipping Information</div>
@@ -322,7 +328,24 @@
                             </div>
                           </div>
                         </div>
+                      </div> -->
+
+                    <div class="panel mb-0">
+                        <div class="panel-body form-horizontal new-customer-billing pt-5">
+                          <div class="form-group">
+                            <div class="col-sm-offset-1 panel-heading">Condtitions</div>
+                          </div>
+                          <div class="form-group">
+                            <div class="col-sm-offset-1 col-sm-11">
+                              <input id="shippingAddress" type="checkbox" name="shippingAddress">
+                              <label for="shippingAddress"><span>I agree to all terms and conditions</span></label>
+                              <hr><a class="you-color-big clearfix pull-right mt-20 br-50 w-35 bg-color shadow-color" href="javascript:void(0)">Checkout</a>
+                            </div>
+                          </div>
+                        </div>
                       </div>
+
+
                     </div>
 
                   </div>
